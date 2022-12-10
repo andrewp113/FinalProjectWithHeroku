@@ -55,14 +55,6 @@ heroku config:set APP_ENV="production"
 heroku config:set ALPHAVANTAGE_API_KEY="______"
 heroku config:set DEFAULT_SYMBOL="GOOGL"
 
-# This is the .env file
-
-#The user should set the information below based on their Spotify Developer App information
-
-#Obtain client_id from Spotify Developer App
-heroku config:set client_id="e511d6d85faa4eb2bf5992529106c09b"
-heroku config:set client_secret="7ea0c0a57a434e6e915f683a8be4b920"
-
 heroku config:set SENDGRID_API_KEY="_________"
 heroku config:set SENDER_EMAIL_ADDRESS="someone@gmail.com"
 ```
