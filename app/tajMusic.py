@@ -39,7 +39,7 @@ def get_username():
 # Get name of XML file
 def xml_name():
     # Greet user 
-    print('Welcome to Taj!\n')
+    #print('Welcome to Taj!\n')
     playlist = input('Enter the XML file name: ') + '.xml'
     return playlist
 
