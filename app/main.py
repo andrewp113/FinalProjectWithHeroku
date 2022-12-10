@@ -1,18 +1,12 @@
 # this is the AppleMusicToSpotify/app/main.py file...
 
-# Imports
+
+# Imports 
 import app.tajMusic as tm
 
 # Spotify Token Access
 import os
 from dotenv import load_dotenv
-
-load_dotenv()
-
-client_id = os.getenv("client_id")
-client_secret = os.getenv("client_secret")
-client_credentials_manager = os.getenv("client_credentials_manager")
-sp = os.getenv("sp")
 
 # Get XML name
 playlist = tm.xml_name()
@@ -25,7 +19,7 @@ song_list = tm.song_list_generator(playlist)
 artist_list = []
 artist_list =tm.artist_list_generator(playlist)
 
-# Get album list 
+# Get album list
 album_list = []
 album_list = tm.album_list_generator(playlist)
 
